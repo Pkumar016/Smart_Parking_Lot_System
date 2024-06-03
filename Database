@@ -1,0 +1,33 @@
+Example Database Records
+
+1. ParkingSpots Table
+
+spot_id	spot_size	is_occupied	floor
+1	car	false	1
+2	motorcycle	true	1
+3	bus	false	2
+4	car	true	1
+5	motorcycle	false	2
+
+2. Vehicles Table
+
+vehicle_id	vehicle_size	entry_time	exit_time
+A1234	car	2024-05-31 08:00:00	NULL
+B5678	motorcycle	2024-05-31 08:15:00	NULL
+C9012	car	2024-05-31 09:00:00	2024-05-31 10:00:00
+D3456	bus	2024-05-31 10:30:00	NULL
+
+3. ParkingTransactions Table
+
+transaction_id	vehicle_id	spot_id	entry_time	exit_time	fee
+1	A1234	1	2024-05-31 08:00:00	NULL	NULL
+2	B5678	2	2024-05-31 08:15:00	NULL	NULL
+3	C9012	4	2024-05-31 09:00:00	2024-05-31 10:00:00	10.0
+4	D3456	3	2024-05-31 10:30:00	NULL	NULL
+
+4. Rates Table
+
+vehicle_size	rate_per_hour
+motorcycle	5.0
+car	10.0
+bus	20.0
