@@ -7,13 +7,13 @@ Status	    Owner	        Authors	     Version   Reviewed By	  Approved By
   1	    Piyush Kumar	  Piyush Kumar	   1	
 
 
-Components
+  Components
 
-  1. Entry/Exit Gate System
-  2. Parking Spot Management
-  3. Fee Calculation Module
-  4. Database
-  5. Concurrency Handling    
+    1. Entry/Exit Gate System
+    2. Parking Spot Management
+    3. Fee Calculation Module
+    4. Database
+    5. Concurrency Handling    
 
 
 1. Entry/Exit Gate System
