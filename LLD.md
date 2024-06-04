@@ -17,7 +17,7 @@ Components
 
 
 1. Entry/Exit Gate System
-This component manages vehicle entry and exit, including recording entry/exit times and triggering parking spot allocation.
+  This component manages vehicle entry and exit, including recording entry/exit times and triggering parking spot allocation.
 
   Components
 
