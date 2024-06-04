@@ -8,21 +8,21 @@ Imagine a parking lot in an urban area with multiple floors and numerous parking
 
 Functional Requirements:
 
-1. Parking Spot Allocation: Automatically assign an available parking spot to a vehicle when it enters, based on the vehicle’s size (e.g., motorcycle, car, bus).
+  1. Parking Spot Allocation: Automatically assign an available parking spot to a vehicle when it enters, based on the vehicle’s size (e.g., motorcycle, car, bus).
 
-2. Check-In and Check-Out: Record the entry and exit times of vehicles.
+  2. Check-In and Check-Out: Record the entry and exit times of vehicles.
 
-3. Parking Fee Calculation: Calculate fees based on the duration of stay and vehicle type.
+  3. Parking Fee Calculation: Calculate fees based on the duration of stay and vehicle type.
 
-4. Real-Time Availability Update: Update the availability of parking spots in real-time as vehicles enter and leave.
+  4. Real-Time Availability Update: Update the availability of parking spots in real-time as vehicles enter and leave.
 
 
 Design Aspects to Consider:
 
-1. Data Model: Design a database schema to manage parking spots, vehicles, and parking transactions.
+  1. Data Model: Design a database schema to manage parking spots, vehicles, and parking transactions.
 
-2. Algorithm for Spot Allocation: Develop an algorithm to efficiently assign parking spots to incoming vehicles.
+  2. Algorithm for Spot Allocation: Develop an algorithm to efficiently assign parking spots to incoming vehicles.
 
-3. Fee Calculation Logic: Implement logic to calculate fees based on parking duration and vehicle type.
+  3. Fee Calculation Logic: Implement logic to calculate fees based on parking duration and vehicle type.
 
-4. Concurrency Handling: Ensure the system can handle multiple vehicles entering or exiting simultaneously.
+  4. Concurrency Handling: Ensure the system can handle multiple vehicles entering or exiting simultaneously.
